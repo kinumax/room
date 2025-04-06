@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build",  // 追加: ビルドスクリプト
     "start": "next start"
   },
   "dependencies": {
-    "next": "^12.0.0",
+    "next": "^12.0.0",  // Next.jsが依存関係に含まれているか確認
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "firebase": "^9.0.0"  // Firebase を使っている場合
+    "firebase": "^9.0.0"  // Firebaseを使用する場合
   },
   "devDependencies": {
     "typescript": "^4.0.0",
