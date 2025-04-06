@@ -1,7 +1,7 @@
 {
-  "name": "your-project-name",
+  "name": "room-fopm",
   "version": "1.0.0",
-  "description": "",
+  "description": "A voice chat app",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -11,7 +11,12 @@
   "dependencies": {
     "next": "^12.0.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "firebase": "^9.0.0"  // Firebase を使っている場合
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/react": "^18.0.0",
+    "@types/node": "^18.0.0"
+  }
 }
