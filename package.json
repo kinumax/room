@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",  // ビルドスクリプト
+    "build": "next build",  
+    
+    // ビルドスクリプト
     "start": "next start"
   },
   "dependencies": {
